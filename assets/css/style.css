@@ -1,0 +1,49 @@
+.crystalscollector {
+    color: white;
+    background-color: orangered;
+    width: 40%;
+}
+.paragraph {
+    color: green;
+    background-color: bisque;
+    width: 50%;
+}
+.random {
+    color: purple;
+    background-color: rgb(184, 226, 184);
+    width: 25%;
+}
+.winlose {
+    color: black;
+    background-color: aqua;
+    width: 10%;
+}
+.crystalimages {
+    background-color: white;
+    width: 40%;
+  
+}
+.score {
+    color: white;
+    background-color: aquamarine;
+    width: 25%;
+}
+.zero {
+    color: white;
+    background-color: aquamarine;
+    width: 25%;
+}
+.container {
+    background-color: aqua;
+    width: 50%;
+    height: 85%;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.image {
+    max-width: 20%;
+    max-height: 20%;
+
+}
