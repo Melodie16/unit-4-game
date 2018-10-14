@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>CrystalsCollector Game</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="assets/javascript/game.js"></script>
+           <!-- <link rel="stylesheet" type = "text/css" href="assets/css/reset.css" /> -->
+          <link rel="stylesheet" type = "text/css" href="assets/css/style.css"/>
+
         <div class="container">
             <div class="crystalscollector">
              <h1>CrystalsCollector!</h1> </div>
+             <div id="crystals">
+                </div>
              <div class="paragraph">
                  <p>You will be given a random number at the start of the game.</p>
 
@@ -22,18 +29,18 @@
                 
              </div>
              <div class="random">
-                 <h1>39</h1> 
+                 <h1> 39<span id="number-to-guess"></span></h1> 
                 </div>
                 <div class="winlose"> <h4>
                      Wins 0
                      Losses 0
                  </h4>
              </div>
-             <div class="crystalimages">
-                 <img src="assets/images/Adundance-Quartz-Crystal-Candle-Smokey.jpg" class="image" />
-                 <img src="assets/images/Adundance-Quartz-Crystal-Candle_4816eb0f-4728-422e-bdb3-b5f0b9b2731d.jpg" class="image" />
-                 <img src="assets/images/Aura-Quartz-Crystal-Rose_f84e5ec3-9f42-4caa-ab04-400dea9e77d8.jpg" class="image" />
-                 <img src="assets/images/Aura-Quartz-Crystal-Smokey_08048236-6656-4ca2-9576-666a8555a489.jpg" class="image" />
+             <div class="allimages">
+                 <img src="assets/images/Adundance-Quartz-Crystal-Candle-Smokey.jpg" class= "crystal-image"/>
+                 <img src="assets/images/Adundance-Quartz-Crystal-Candle_4816eb0f-4728-422e-bdb3-b5f0b9b2731d.jpg" class= "crystal-image"/>
+                 <img src="assets/images/Aura-Quartz-Crystal-Rose_f84e5ec3-9f42-4caa-ab04-400dea9e77d8.jpg" class= "crystal-image"/>
+                 <img src="assets/images/Aura-Quartz-Crystal-Smokey_08048236-6656-4ca2-9576-666a8555a489.jpg" class= "crystal-image"/>
              </div>
              <div class="score">
                  <h4>
@@ -43,6 +50,7 @@
                      <h1>
                          0
                      </h1>
+
                  </div>
              </div>
 

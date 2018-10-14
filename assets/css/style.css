@@ -18,9 +18,11 @@
     background-color: aqua;
     width: 10%;
 }
-.crystalimages {
+.allimages {
     background-color: white;
     width: 40%;
+    /* max-width: 20%;
+    max-height: 20%; */
   
 }
 .score {
@@ -42,8 +44,9 @@
     margin: 0;
 
 }
-.image {
+.crystal-image {
     max-width: 20%;
     max-height: 20%;
 
 }
+
